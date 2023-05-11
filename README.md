@@ -8,8 +8,8 @@ Implementation of a IPOPT and Direct Collocation (DIRCOL) based Multi Vehicle Co
 * Visualization using MeshCat Libraries
 
 ## Introduction
-In this repository, we propose a trajectory planning technique that mimics a Brachiation robot swinging from bar to bar. Using a hybrid system direct collocation (DIRCOL) trajectory optimization, we successfully demonstrate the robot swinging up from a dead hang to catch the first bar and swing to the subsequent bars. This DIRCOL technique was tested on various mass distributions in the robot as well as different bar separation distances to understand the behavior with varying parameters. In addition, we show the importance of a free time setup on the cost function in producing consistent feasible trajectories using this DIRCOL technique.
 
+In this repository, we propose a multi-vehicle racing line optimization strategy aimed at controlling two vehicles simultaneously in autonomous racing competitions is presented in this paper. The proposed control strategy is concerned with both cars completing the track in a given time competing for the optimal racing line. The optimization problem considers both the vehicle’s dynamics and upper and lower bounds for the states and vehicle controls. Furthermore, the approach allows the cars to safely race on a track while avoiding collision with each other in predefined trajectories. Simulations of both cars following the trajectories are shown using Meshcat. Although the control strategy allowed both cars to follow the given trajectories, there were minimal signs of the two vehicles battling for the optimal trajectory.
 ## Dependencies
 Julia v1.6.7, Juptyer Notebook
 
