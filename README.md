@@ -21,4 +21,10 @@ Julia v1.6.7, Juptyer Notebook
 5. In the REPL (hit backspace to exit these package manager), enter using IJulia
 6. Launch the notebook using notebook() or jupyterlab()
 
+## Trajectory Generation
+The majority of the necessary code for the combined dynamics is located [Combined Dynamics](https://github.com/NikhilCG26/Multi-Vehicle-Racing-Line-Optimization/blob/main/Project_Combined_Dynamics.ipynb). 
+For the double integrator model, reference [Double Integrator Model](https://github.com/NikhilCG26/Multi-Vehicle-Racing-Line-Optimization/blob/main/Project_Double_integrator_Dynamics.ipynb)
+For Kinematics model alone, reference [Kinematics Model](https://github.com/NikhilCG26/Multi-Vehicle-Racing-Line-Optimization/blob/main/Project_base-Kinematics.ipynb). 
+For Dynamics model alone, reference [Dynamics Model](https://github.com/NikhilCG26/Multi-Vehicle-Racing-Line-Optimization/blob/main/Project_base-Dynamics.ipynb). 
+Run each jupyter notebook cell sequentially as described.
 
